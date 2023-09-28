@@ -1,0 +1,37 @@
+$body_color: #f8f8f8;
+$white: #fff;
+$logo-bg: #0A66C7;
+$primary_color: #333;
+$secondary_color: #D01F3C;
+$border_color: #ced4da;
+$gray_color: #6c757d;
+$info-color: #17a2b8;
+$danger-color: #ff1a30;
+$edit-color: #D01F3C;
+
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin transition($all) {
+    -webkit-transition: $all;
+    -moz-transition: $all;
+    -ms-transition: $all;
+    transition: $all;
+}
+
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    transform: $transform;
+}
+
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+}

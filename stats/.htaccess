@@ -1,0 +1,7 @@
+AuthName "servicefellowapp statistics"
+AuthType Basic
+AuthUserFile /home/servicefellowapp/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

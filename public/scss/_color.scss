@@ -1,0 +1,65 @@
+body{
+    background-color: $body_color;
+    color: $primary_color;
+}
+.login-box{
+    background-color: $white; 
+}
+a{
+    color: $secondary_color;
+}
+a:hover{
+    color: $primary_color;
+}
+.navbar-custom{
+    background-color: $white;
+}
+.accordion{
+    .card{
+        .card-header{
+            a{
+                color: $primary_color;
+                &:hover{
+                    color: $white;
+                    background-color: $secondary_color;
+                }
+                &:not(.collapsed){
+                    color: $white;
+                    background-color: $secondary_color;
+                }
+            }
+        }
+    }
+}
+.bg-gradient-primary{
+    background: linear-gradient(45deg,#4638c2 0%,#2d2587 100%);
+    color: $white;
+}
+.bg-gradient-success{
+    background: linear-gradient(45deg,#45a164 0%,#2e8c47 100%);
+    color: $white;
+}
+.bg-gradient-info{
+    background: linear-gradient(45deg,#4799eb 0%,#4280b4 100%);
+    color: $white;
+}
+.bg-gradient-warning{
+    background: linear-gradient(45deg,#e1a82d 0%,#dd9124 100%);
+    color: $white;
+}
+.bg-gradient-danger{
+    background: linear-gradient(45deg,#d16767 0%,#c14f4f 100%);
+    color: $white;
+}
+.bg-facebook{
+    background: #3b5998 !important;
+    color: $white;
+}
+.bg-twitter{
+    background: #00aced !important;
+    color: $white;
+}
+.bg-linkedin{
+    background: #4875b4 !important;
+    color: $white;
+}
